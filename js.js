@@ -20,6 +20,9 @@ let startGameBot = function(){
   }else {
     return 'Поздравляю вы угадали';
   };
-  }
+  };
+  alert(getAsk('Угадай число 1 - 100'));
 };
 startGameBot();
+
+
